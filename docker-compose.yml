@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  ${MONGO_HELP_SERVICE}:
+    user: "root"
+    image: mongo:latest
+    volumes:
+      - "./backup:/backup"
+    working_dir: "/backup"
+
