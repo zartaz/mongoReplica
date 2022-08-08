@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #dimiourgise script edw me heredocs (cat<<EOF>executable.sh) kai kalesta me bash *.sh
+#oti mporeis kanto async me &
 
 cd_here(){
     cd "$(dirname "$(readlink -f "$0")")"
