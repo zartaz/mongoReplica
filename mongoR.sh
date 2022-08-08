@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#dimiourgise script edw me heredocs (cat<<EOF>executable.sh) kai kalesta me bash *.sh
+
 cd_here(){
     cd "$(dirname "$(readlink -f "$0")")"
     source .env
